@@ -2,13 +2,13 @@
 
 This project performs an analysis of content popularity based on user reactions using structured data. The goal is to identify the **top 5 content categories** with the highest engagement scores, where *popularity is quantified by the sentiment score associated with each reaction type*.
 
-## 🧠 Objective
+##  Objective
 
 To provide the client with insights into which **content categories resonate the most with users**, helping guide future content strategies.
 
 ---
 
-## 🗃️ Datasets
+## Datasets
 
 The analysis is based on three datasets:
 
@@ -32,22 +32,12 @@ The analysis is based on three datasets:
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 - Microsoft SQL Server
 - SQL for data querying and aggregation
 - Data visualization tools (optional)
 - Microsoft Excel
-
----
-
-## 📌 Query Used
-
-```sql
-SELECT TOP 5  category, SUM(Score) AS Reaction_Score
-FROM merged_content_reactions
-GROUP BY Category
-ORDER BY Reaction_Score DESC;
 
 ---
 
@@ -66,4 +56,14 @@ related to animals generates the strongest emotional connection and engagement f
 
 ---
 
+##  Author
+
+**Korrapati Jaswanth**  
+Data Science Enthusiast | 23K Followers @Linkedln | Top Machine Learning & Data Analysis Voice on LinkedIn  
+Bangalore, India  
+Reach out via LinkedIn: [https://www.linkedin.com/in/jaswanth49b057228/]
+
+---
+
+## Don't forget to star this repository if you found it helpful!
 

@@ -1,4 +1,4 @@
-# 📊 Content Popularity Analysis Based on Reactions
+# Content Popularity Analysis Based on Reactions
 
 This project performs an analysis of content popularity based on user reactions using structured data. The goal is to identify the **top 5 content categories** with the highest engagement scores, where *popularity is quantified by the sentiment score associated with each reaction type*.
 
